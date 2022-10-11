@@ -1,9 +1,8 @@
 package it.ian.scuola.cli.oop.persona;
 
 public class Persona {
-    /*
-    * Inizializzazione degli attributi
-    */
+
+    //Inizializzazione degli attributi
     private String nome;
     private String cognome;
     private String titolo;

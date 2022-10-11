@@ -2,7 +2,8 @@ package it.ian.scuola.cli.oop.persona;
 
 public class Main {
     public static void main(String[] args) {
-       //dichiarazione degli oggetti
+
+        //dichiarazione degli oggetti
         Persona persona1 = new Persona("Marco", "Bianchi");
         Persona persona2 = new Persona("Renato", "Caputo", "Sig.", "barbiere");
 
