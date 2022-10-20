@@ -34,7 +34,7 @@ public class Calciatore {
     public void setRuolo(String ruolo) {
         this.ruolo = ruolo;
     }
-    public float capacitàDribbling(){
-        return ((eta * capacita) % 0.86);
+    public float capacitàDribbling(int eta, float capacita){
+        return (float) ((eta * capacita) / 0.86);
     }
 }
