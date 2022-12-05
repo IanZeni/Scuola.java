@@ -2,9 +2,9 @@ package it.ian.scuola.cli.oop.garage;
 
 public class Auto extends Veicolo{
     protected int porte;
-    protected boolean carburante;
+    protected char carburante;
 
-    public Auto(String id, String marca, int anno, int cilindrata, int porte, boolean carburante) {
+    public Auto(String id, String marca, int anno, int cilindrata, int porte, char carburante) {
         super(id, marca, anno, cilindrata);
         this.porte = porte;
         this.carburante = carburante;
@@ -18,11 +18,11 @@ public class Auto extends Veicolo{
         this.porte = porte;
     }
 
-    public boolean isCarburante() {
+    public char getCarburante() {
         return carburante;
     }
 
-    public void setCarburante(boolean carburante) {
+    public void setCarburante(char carburante) {
         this.carburante = carburante;
     }
 

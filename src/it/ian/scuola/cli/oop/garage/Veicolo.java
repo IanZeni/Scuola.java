@@ -5,6 +5,7 @@ public class Veicolo {
     protected String marca;
     protected int anno;
     protected int cilindrata;
+    protected char tipoclasse;
 
     public Veicolo(String id, String marca, int anno, int cilindrata) {
         this.id = id;
@@ -44,6 +45,14 @@ public class Veicolo {
     public void setCilindrata(int cilindrata) {
         this.cilindrata = cilindrata;
     }
+    public void setTipoClasse(char tipo){
+        tipoclasse = tipo;
+    }
+
+    public char getTipoclasse() {
+        return tipoclasse;
+    }
+
     public void stampa(){
         System.out.println("Marca :" + marca);
         System.out.println("Anno :" + anno);
